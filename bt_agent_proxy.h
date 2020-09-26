@@ -3,6 +3,7 @@
 
 #include <stdint.h>
 #include <vector>
+#include <string>
 
 class bt_agent_proxy_t {
 public:

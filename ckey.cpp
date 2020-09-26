@@ -579,8 +579,8 @@ void ckey::dump() const
 		<< " fingerprint " << fingerprint() << "\n"
 		<< " md5 " << fingerprint_md5() << "\n"
 		<< " sha256 " << fingerprint_sha256() << "\n"
-		<< " comment " << key_comment() << "\n"
-		<< " comment2 " << key_comment2() << "\n";
+		<< " comment " << key_comment() << "\n";
+//		<< " comment2 " << key_comment2() << "\n";
 	if (key_->alg == &ssh_rsa) {
 		const RSAKey *rsa = (RSAKey *)key_->data;
 		oss << " exponent " << bignum_tostr(rsa->exponent) << "\n"

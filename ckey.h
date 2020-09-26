@@ -4,6 +4,7 @@
 #include <vector>
 #include <stdint.h>
 #include <time.h>
+#include <string>
 
 #include "ssh.h"	// for ssh2_userkey
 
